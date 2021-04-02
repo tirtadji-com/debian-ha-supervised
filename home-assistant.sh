@@ -29,13 +29,13 @@ fi
 # Install Samba
 /root/hass/glances-install.sh
 
+# Install HASS
+/root/docker/hass-install.sh
+
 # Install Docker Component
 /root/docker/influxdb-install.sh
 /root/docker/mysql-install.sh
 /root/docker/grafana-install.sh
-
-# Install HASS
-/root/docker/hass-install.sh
 
 # Install Samba
 /root/hass/samba-install.sh

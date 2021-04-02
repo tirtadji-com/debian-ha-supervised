@@ -118,6 +118,6 @@ cat <<EOF >/etc/issue.net
 ###############################################################
 EOF
 
-service ssh restart
+#service ssh restart
 
 rm -r $MOTD_ROOT
